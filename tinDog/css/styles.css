@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+    line-height: 1.5;
+    font-size: 4.5rem;
+    font-family: 'Mouse Memoirs', sans-serif;
+    text-shadow: 2px 2px rgb(76, 75, 75);
+}
+
+h2{
+    font-family: 'Dosis-dark', sans-serif; 
+    font-size: 2rem;
+    line-height: 1.1;
+    padding-bottom: 20px;
+}
+
+/* Title Section */
+
+#title{
+    background: #ff4c68;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar{
+    padding-bottom: 2rem;
+}
+
+.navbar-brand{
+    padding-right: 5%;
+    font-size: 3rem;
+    text-shadow: 2px 3px rgb(252, 177, 177);
+}
+
+.nav-item{
+    padding: 0 10px;
+}
+
+.nav-link{
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.container-fluid{
+    margin-left: 2%;
+    padding: 1% 10% 7% ;
+}
+
+.title{
+    margin-top:1%
+}
+
+.appleBtn, .googleBtn {
+    margin: 5% 1% 0;
+    font-family: 'Dosis-dark', sans-serif;
+}
+
+.phone-dog{
+    height: 32rem;
+    margin-top: 5%;
+    margin-left: 20%;
+    box-shadow: 5px 5px rgb(57, 56, 56);
+    border-radius: 8%;
+    position: absolute;
+    right: 15%;
+    top: 15%;
+    transform: rotate(18deg)
+}
+
+@media (max-width: 992px) {
+    #title{
+        text-align: center;
+    }
+    .phone-dog{
+    height: 20rem;
+    margin: 5% 0;
+    transform: rotate(0deg);
+    box-shadow: 5px 5px rgb(57, 56, 56);
+    border-radius: 8%;
+    position:static;
+    top: 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .phone-dog{
+    height: 20rem;
+    margin: 5% 0;
+    transform: rotate(0);
+    box-shadow: 5px 5px rgb(57, 56, 56);
+    border-radius: 8%;
+    position: static;
+    }
+}
+
+/* Features Section */
+
+#features{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+    padding: 7% 10%;
+    
+}
+
+.row h3{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 2.8rem;
+}
+
+.row p{
+    font-family: 'Dosis-dark', sans-serif;
+   font-size: 1.5rem;
+    padding: 5%;
+    color: #8f8f8f;
+}
+
+.f-icon{
+    display: inline;
+    color: #ff4c68;
+    justify-content: center;
+}
+
+.f-icon:hover{
+    color: #8d8d8c;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.testimonial-img{
+    width: 15%;
+    border-radius: 100%;
+}
+
+.carousel-item{
+  padding: 5% 15%;  
+}
+
+em{
+    font-family: 'Dosis', sans-serif; 
+    font-size: 1rem; 
+}
+
+/* Press Section */
+
+#press{
+    padding: 2% 15%;
+}
+
+.logo{
+    margin-top: 2%;
+    width: 80%;
+}
+
+@media (max-width:992px){
+    .logo{
+        display: flex;
+        margin: 0 auto;
+    }
+}
+
+/* Pricing Section */
+
+#pricing{
+    background-color: #ff4c68;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.price-card{
+    margin-left:5%;
+    margin-right:5%;
+    border: 3px solid white;
+}
+
+.h2-pricing{
+    padding-top:2%;
+    
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px rgb(76, 75, 75);
+}
+
+.p-pricing{
+    
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom:2%
+}
+
+.card-header{
+    background-color: #ff4c68;
+    color: white;
+    font-family:'Mouse Memoirs', sans-serif;
+}
+
+.h4-pricing{
+    font-size:2rem;
+}
+
+.list-bulldog li{
+    margin-bottom: 4%;
+    }
+
+.list-cocker li{
+margin-bottom: 4%;
+}
+
+.priority{
+    font-weight: bold;
+    color: #ff4c68;
+}
+
+.price-btn{
+    border: 2px solid #ff4c68;
+    color: #ff4c68;
+}
+
+.price-btn:hover{
+    border: 2px solid #ff4c68;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.last-card{
+    line-height: 1.7;
+}
+
+/* Call to Action Section */
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    font-family:'Mouse Memoirs', sans-serif;  
+    
+}
+
+ .cta-header{
+    
+    font-size: 3em;
+    text-shadow: 2px 2px rgb(76, 75, 75);
+}
+
+.cta-appleBtn,.cta-googleBtn {
+    font-family: 'Dosis-dark', sans-serif;
+    margin-bottom: 2%;
+    margin-left: 2%;
+} 
+
+.footer-ico{
+    margin-top:2%;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+    width:2rem;
+}
